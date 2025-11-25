@@ -35,7 +35,7 @@ drinks-api/
 
 ---
 
-# Unified Response Structure
+# 🔧 Unified Response Structure
 ```
 {
   "data": { ... },
@@ -56,8 +56,8 @@ drinks-api/
     "page": 2,
     "page_size": 10,
     "total_pages": 12,
-    "next_page_url": "/api/drinks/?page=3&page_size=10",
-    "prev_page_url": "/api/drinks/?page=1&page_size=10"
+    "next_page_url": "/api/drinks/?page=3",
+    "prev_page_url": "/api/drinks/?page=1"
   }
 }
 ```
