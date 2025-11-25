@@ -12,6 +12,7 @@ Built with:
 ---
 
 # 📂 Project Structure
+```
 backend-django/
 │
 ├── api/                 # Application module
@@ -27,5 +28,6 @@ backend-django/
 ├── backend_django/      # Project settings
 ├── manage.py
 └── README.md            # Documentation
+```
 
 
