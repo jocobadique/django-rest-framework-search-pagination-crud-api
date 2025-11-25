@@ -12,7 +12,7 @@ Built with:
 ---
 
 # 📂 Project Structure
-drinks-api/
+backend-django/
 │
 ├── api/                 # Application module
 │   ├── models.py        # Drink + Category models
@@ -24,6 +24,7 @@ drinks-api/
 │   └── utils/
 │       └── response.py  # Unified API response formatter
 │
-├── core/                # Project settings
+├── backend_django/      # Project settings
 ├── manage.py
 └── README.md            # Documentation
+
