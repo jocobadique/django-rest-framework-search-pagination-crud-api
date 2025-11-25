@@ -36,18 +36,18 @@ drinks-api/
 ---
 
 # Unified Response Structure
-
+```
 {
   "data": { ... },
   "message": "",
   "error": null,
   "status": 200
 }
-
+```
 ---
 
 # ✔ Advanced Pagination
-
+```
 "data": {
   "results": [...],
   "pagination": {
@@ -60,5 +60,5 @@ drinks-api/
     "prev_page_url": "/api/drinks/?page=1&page_size=10"
   }
 }
-
+```
 
