@@ -6,6 +6,8 @@ Built with:
 - **Backend:** Django 5 + Django REST Framework
 - **Authentication:** JWT (SimpleJWT)
 - **Filtering:** django-filter
+- **Pagination:** Custom advanced pagination
+- **Serialization:** DRF ModelSerializers
 - **Architecture:** Unified API Response & Role-Based Access
 
 
