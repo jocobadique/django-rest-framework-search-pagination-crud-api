@@ -62,3 +62,7 @@ drinks-api/
 }
 ```
 
+# 👨‍💻 Author  
+**Joco Badique**  
+Software Engineer  
+Email: badiquejoco@gmail.com
