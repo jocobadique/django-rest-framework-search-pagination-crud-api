@@ -7,3 +7,23 @@ Built with:
 - **Authentication:** JWT (SimpleJWT)
 - **Filtering:** django-filter
 - **Architecture:** Unified API Response & Role-Based Access
+
+
+---
+
+# 📂 Project Structure
+drinks-api/
+│
+├── api/                 # Application module
+│   ├── models.py        # Drink + Category models
+│   ├── serializers.py   # DRF serializers
+│   ├── views.py         # ViewSets with CRUD, validation, roles
+│   ├── pagination.py    # Custom pagination with next/prev URLs
+│   ├── permissions.py   # Role-based permission class
+│   ├── urls.py          # Router-based API URLs
+│   └── utils/
+│       └── response.py  # Unified API response formatter
+│
+├── core/                # Project settings
+├── manage.py
+└── README.md            # Documentation
