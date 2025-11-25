@@ -33,4 +33,32 @@ drinks-api/
 └── README.md            # Documentation
 ```
 
+---
+
+# Unified Response Structure
+
+{
+  "data": { ... },
+  "message": "",
+  "error": null,
+  "status": 200
+}
+
+---
+
+# ✔ Advanced Pagination
+
+"data": {
+  "results": [...],
+  "pagination": {
+    "filtered_count": 37,
+    "total_count": 120,
+    "page": 2,
+    "page_size": 10,
+    "total_pages": 12,
+    "next_page_url": "/api/drinks/?page=3&page_size=10",
+    "prev_page_url": "/api/drinks/?page=1&page_size=10"
+  }
+}
+
 
